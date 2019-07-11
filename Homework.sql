@@ -182,10 +182,10 @@ group by name
 order by sum(amount) desc
 limit 5;
 
-#How would you display the view that you created
+#Display the view that you created
 use sakila;
 SELECT * FROM top_5_genres;
 
-#You find that you no longer need the view top_five_genres. Write a query to delete it.
+#Write a query to delete the view.
 use sakila;
 DROP VIEW top_5_genres;
